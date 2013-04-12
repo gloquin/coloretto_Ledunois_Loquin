@@ -35,5 +35,5 @@ PLAYER pickALine();
 
 /* return the first player */
 PLAYER firstPlayer();
-
+ 
 #endif
