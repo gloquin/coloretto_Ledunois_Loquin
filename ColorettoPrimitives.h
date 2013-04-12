@@ -21,6 +21,6 @@ createLine(int nbPlayers); //return an array of pointers (4 à 5)
 putACard();
 pickALine(); // return the last player who picked a line
 
-firstPlayer();
+firstPlayer();//return id of the first player
 
 #endif
