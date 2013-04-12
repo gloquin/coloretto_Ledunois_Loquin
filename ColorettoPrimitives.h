@@ -11,16 +11,16 @@
 
 #include "Coloretto.h"
 
-createCard(int colour); //return a card
-createStock(); //return an array of 77 cards
+CARD createCard(int colour); //return a card
+CARD* createStock(); //return an array of 77 cards
 
-mixCards(); //return a pile
-pickCard(); //return a card and delete it from the pile (PilePop)
+PILE mixCards(); //return a pile
+CARD pickCard(); //return a card and delete it from the pile (PilePop)
 
-createLine(int nbPlayers); //return an array of pointers (4 à 5)
-putACard();
-pickALine(); // return the last player who picked a line
+LISTE* createLine(int nbPlayers); //return an array of pointers (4 à 5)
+void putACard(); //put a card on a line
+PLAYER pickALine(); // return the last player who picked a line
 
-firstPlayer();//return id of the first player
+PLAYER firstPlayer();//return id of the first player
 
 #endif
