@@ -11,5 +11,16 @@
 
 #include "Coloretto.h"
 
+createCard(int colour); //return a card
+createStock(); //return an array of 77 cards
+
+mixCards(); //return a pile
+pickCard(); //return a card and delete it from the pile (PilePop)
+
+createLine(int nbPlayers); //return an array of pointers (4 à 5)
+putACard();
+pickALine(); // return the last player who picked a line
+
+firstPlayer();
 
 #endif
